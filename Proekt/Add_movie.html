@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film4eta</title>
+    <!--Link to css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Link Swiper CSS-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+     <!--Fav Icon-->
+    <link rel="shortcut icon" href="resources/img/movies-icon-png-8.jpg" type="image/x-icon">
+   
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <a href="index.html" class="logo">
+            Film<span>4e</span>ta
+            </a>
+
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search movie">
+                <i class="bx bx-search"></i>
+            </div>
+            <a href="#" class="user">
+                <img src="resources/img/bird.png" alt="" class="user-img">
+            </a>
+
+            <div class="navBar">
+                <a href="index.html" class="nav-link nav-active">
+                    <i class='bx bx-home' ></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="add container">
+        <div class="add-content">
+            <h2>Add movie</h2>
+            <div class="add-name input">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name">
+                <label for="name-img">Image for the movie: </label>
+                <input type="file" id="name-img" name="name-img">
+                <label for="name-img-background">Image for the movie's background: </label>
+                <input type="file" id="name-img-background" name="name-img-background">
+            </div>
+            <div class="add-director input">
+                <label for="directors">Choose director:</label>
+                <select name="directors" class="selectors" id="directors">
+                    <option value="Michael">Michael</option>
+                    <option value="Bobi">Bobi</option>
+                </select>
+                <input type="button" class="buttons" value="Create celebrity">
+            </div>
+            <div class="add-genre input">
+                <label for="genres">Choose genre:</label>
+                <select name="genres" class="selectors" id="genres">
+                    <option value="horror">Horror</option>
+                    <option value="action">action</option>
+                </select>
+                <input type="button" class="buttons" value="Add genre">
+            </div>
+            <div class="add-actor input">
+                <label for="actors">Choose actors:</label>
+                <select name="actors" class="selectors" id="actors">
+                    <option value="horror">Horror</option>
+                    <option value="action">action</option>
+                </select>
+                <input type="button" class="buttons" value="Add actors">
+                <input type="button" class="buttons" value="Create celebrity">
+            </div>
+            <div class="add-rating input">
+                <label for="rating">Rating: </label>
+                <input type="text" id="rating" name="rating">
+            </div>
+            <div class="add-description input">
+                <label for="description">Description: </label>
+                <input type="text" id="description" name="description">
+            </div>
+            <div class="add-button input">
+                <input type="button" class="buttons" value="Create movie">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
