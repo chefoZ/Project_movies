@@ -491,7 +491,7 @@ input{
     object-fit: cover;
     object-position: center;
 }
-/*Add page*/
+/*Add-movie page*/
 .add{
     margin-top: 6rem;
     margin-bottom: 3rem;
@@ -535,17 +535,46 @@ input{
     cursor: pointer;
 }
 
+.create-celebrity,
+.create-genres{
+    color: var(--text-color);
+    padding: 5px 20px;
+    font-size: 13px;
+    background: var(--main-color);
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.create-genres{
+    padding: 5px 32px !important;
+}
+
+.create-celebrity span,
+.create-genres span{
+    position: absolute;
+
+}
+
+.create-celebrity:hover,
+.create-genres:hover{
+    background: var(--hover-color);
+    border-radius: 0px;
+}
+
 .buttons{
     width: 150px;
     height: 30px;
     border-radius: 20px;
     border: none;
-    background: #f56a6ad5;
+    background: var(--main-color);
+    color: var(--text-color);
     cursor: pointer;
 }
 
 .buttons:hover{
-    background: #ee5757d5;
+    background: var(--hover-color);
     border-radius: 0px;
 }
 
