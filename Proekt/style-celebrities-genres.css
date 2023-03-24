@@ -72,12 +72,16 @@
 .add-celebrity-btn,
 .add-genre-btn{
     margin-left: 169px;
+    margin-bottom: 20px;
 }
-.add-celebrity-btn .buttons,
-.add-genre-btn .buttons{
-    width: 180px;
-    height: 52px;
+.add-celebrity-btn .create-celebrity,
+.add-genre-btn .create-celebrity{
+    width: 200px;
+    height: 60px;
     font-size: 20px;
+}
+.add-celebrity-btn span{
+    margin: 10px 1px;
 }
 .vl{
     border-left: 6px solid var(--main-color);
@@ -97,7 +101,8 @@
 .genre-information{
     display: flex;
     flex-direction: row;
-    margin: 20px 90px;
+    margin: 20px 0px;
+    margin-left: 90px;
 }
 
 .genre-name{
@@ -105,5 +110,29 @@
 }
 
 .genre-information .delete-edit-btn{
-    margin-left: 79px;
+    margin-left: 70px;
+}
+
+.add-genre-btn span{
+    margin: 10px 12px;
+}
+
+/*Create genre page*/
+
+.create-genre h2{
+    margin: 20px 88px !important;
+}
+
+/*Create celebrity page*/
+.celebrity-page h2{
+    margin: 20px 75px !important;
+}
+
+@media(max-width: 1064px){
+    .celebrities-genres{
+        flex-direction: column;
+    }
+    .vl{
+        border-left: none;
+    }
 }
